@@ -67,28 +67,6 @@ strong { font-weight: var(--fw-bold) }
     outline-offset: 3px;
 }
 
-/* Buttons */
-
-.btn {
-    display: inline-block;
-    padding: .5em 2.5em;
-    background: var(--clr-accent);
-    color: var(--clr-text);
-    text-decoration: none;
-    cursor: pointer;
-    font-size: .8rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: var(--fw-bold);
-    transition: transform 200ms ease-in-out;
-}
-
-.btn:hover {
-    transform: scale(1.1);
-}
-
-/* Typography */
-
 h1,
 h2,
 h3 {
@@ -147,7 +125,7 @@ header {
 .nav {
     position: fixed;
     background: var(--clr-dark);
-    color: var(--clr-text);
+    color: var(--clr-text-light);
     top: 0;
     bottom: 0;
     left: 0;
@@ -285,8 +263,6 @@ header {
 
 .my-services {
     background-color: var(--clr-dark);
-    background-size: cover;
-    /* background-blend-mode: multiply; */
     color: var(--clr-text-light);
     text-align: center;
 }
@@ -373,7 +349,7 @@ header {
 
 .my-work {
     background-color: var(--clr-dark);
-    color: var(--clr-light);
+    color: var(--clr-text-light);
     text-align: center;
 }
 
@@ -446,18 +422,4 @@ header {
 
 .social-list__link {
     padding: .5em;
-}
-
-/* Individual portfolio item styles */
-
-.portfolio-item-individual {
-    padding: 0 2em 2em;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.portfolio-item-individual p {
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
 }
