@@ -35,8 +35,6 @@
     }
 }
 
-/* General styles */
-
 html {
     scroll-behavior: smooth;
 }
@@ -109,8 +107,6 @@ h3 { font-size: var(--fs-h3) }
     font-weight: var(--fw-bold);
     margin-bottom: 2em;
 }
-
-/* header */
 
 header {
     display: flex;
@@ -215,8 +211,6 @@ header {
 .hamburger::before { top: 6px; }
 .hamburger::after { bottom: 6px; }
 
-/*  Intro section  */
-
 .intro {
     position: relative;
 }
@@ -258,8 +252,6 @@ header {
         width: calc(100% + 1.5em);
     }
 }
-
-/*  My services section  */
 
 .my-services {
     background-color: var(--clr-dark);
@@ -345,8 +337,6 @@ header {
     }
 }
 
-/* My Work */
-
 .my-work {
     background-color: var(--clr-dark);
     color: var(--clr-text-light);
@@ -379,8 +369,6 @@ header {
     transform: scale(1.2);
     opacity: .5;
 }
-
-/* footer */
 
 .footer {
     background: var(--clr-light);

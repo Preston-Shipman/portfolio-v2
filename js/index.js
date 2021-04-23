@@ -10,3 +10,7 @@ navLinks.forEach(link => {
     document.body.classList.remove('nav-open');
   })
 })
+
+var imagekit = new ImageKit({
+  urlEndpoint: "https://ik.imagekit.io/shipman/"
+});
